@@ -1,0 +1,77 @@
+/* Remove o espaçamento de todo elemento html */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#b9d9d9; /* define cor de fundo */
+    color:#3d3d3d; /* define a cor da fonte */
+    font-family:helvetica; /* define a fonte do projeto */
+}
+
+header{
+    background-color: #ffffff;
+    padding: 20px; /* espaçamento interno do elemento */
+}
+
+main{
+    max-width: 1200px; /* largura máxima do elemento */
+    margin:0 auto; /* margem sup e inf = 0; Margem esq e dir automática*/
+}
+
+#banner{
+    background-color: #ffffff;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#servicos{
+    background-color: #ffffff;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#funcionamento{
+    background-color: #ffffff;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#clientes{
+    background-color: #ffffff;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center; /* alinha o texto ao centro */
+}
+
+/* Formatação do menu de navegação */
+
+nav{
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+nav ul li{
+    display:inline; /* posiciona itens em linha */
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none; /* remove underline ou formatações no texto */
+    color:#7B2525;
+}
+
+nav ul li a:hover{
+    text-decoration: underline; /* insere underline no texto*/
+    color:#607456;
+}
