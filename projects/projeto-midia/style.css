@@ -56,7 +56,7 @@ header {
   z-index: 100;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   padding: 28px 5vw;
@@ -65,6 +65,35 @@ header {
   color: white;
 }
 
+
+/* LINK PARA VOLTAR AO PORTFÓLIO */
+
+.back-link {
+  position: absolute;
+  left: 5vw;
+
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+
+  color: white;
+
+  opacity: .8;
+
+  transition:
+    opacity .3s ease,
+    transform .3s ease;
+}
+
+.back-link:hover {
+  opacity: 1;
+  transform: translateX(-4px);
+}
+
+
+/* LOGO */
+
 .logo {
   font-size: 11px;
   font-weight: 700;
@@ -72,7 +101,13 @@ header {
   text-transform: uppercase;
 }
 
+
+/* NAVEGAÇÃO */
+
 nav {
+  position: absolute;
+  right: 5vw;
+
   display: flex;
   gap: 30px;
 }
