@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projeto Mídia — Experiências Audiovisuais</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="#" class="logo">Projeto Mídia</a>
+
+    <nav>
+      <a href="#filme">Filme</a>
+      <a href="#som">Som</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-meta">
+        Projeto experimental
+      </div>
+
+      <h1>
+        Projeto
+        <span>Mídia</span>
+      </h1>
+
+      <div class="hero-bottom">
+
+        <p class="hero-description">
+          Uma experiência audiovisual construída entre
+          imagem, som, silêncio e espaço.
+        </p>
+
+        <div class="scroll-indicator">
+          <span class="scroll-line"></span>
+          Scroll para explorar
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- VIDEO -->
+    <section class="video-section reveal" id="filme">
+
+      <div class="section-label">
+        <span>01 / Movimento</span>
+        <span>Imagem em movimento</span>
+      </div>
+
+      <div class="video-wrapper">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+          poster="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=80"
+        >
+          <source
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            type="video/mp4"
+          >
+
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+
+      </div>
+
+      <div class="video-caption">
+        <span>Estudo visual</span>
+        <span>00:01 — 00:15</span>
+      </div>
+
+    </section>
+
+
+    <!-- MANIFESTO -->
+    <section class="manifesto reveal" id="sobre">
+
+      <div class="manifesto-number">
+        01
+      </div>
+
+      <div class="manifesto-content">
+
+        <h2>
+          A imagem
+          também pode
+          <em>respirar.</em>
+        </h2>
+
+        <p>
+          Projeto Mídia é uma investigação sobre a relação
+          entre diferentes linguagens audiovisuais.
+          Aqui, o espaço vazio não é ausência:
+          ele cria ritmo, pausa e expectativa.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ÁUDIO -->
+    <section class="audio-section reveal" id="som">
+
+      <div class="section-label">
+        <span>02 / Frequência</span>
+        <span>Arquivo sonoro</span>
+      </div>
+
+      <div class="audio-grid">
+
+        <!-- ÁUDIO 01 -->
+        <article class="audio-card">
+
+          <div class="audio-index">
+            01
+          </div>
+
+          <div class="audio-info">
+
+            <h3>Atmosfera I</h3>
+
+            <p>
+              Uma pequena pausa sonora.
+            </p>
+
+            <audio controls>
+              <source
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+                type="audio/mpeg"
+              >
+
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+          </div>
+
+        </article>
+
+
+        <!-- ÁUDIO 02 -->
+        <article class="audio-card">
+
+          <div class="audio-index">
+            02
+          </div>
+
+          <div class="audio-info">
+
+            <h3>Atmosfera II</h3>
+
+            <p>
+              Ruído, espaço e presença.
+            </p>
+
+            <audio controls>
+              <source
+                src="https://www.w3schools.com/html/horse.ogg"
+                type="audio/ogg"
+              >
+
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- FRASE FINAL -->
+    <section class="statement reveal">
+
+      <h2>
+        Entre o que
+        <span>vemos</span>
+        e o que
+        <span>ouvimos.</span>
+      </h2>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <span class="footer-title">
+      Projeto Mídia
+    </span>
+
+    <span>
+      Experimento audiovisual — 2026
+    </span>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
