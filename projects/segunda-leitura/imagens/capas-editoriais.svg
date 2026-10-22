@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="900" viewBox="0 0 760 900" role="img" aria-labelledby="title desc">
+<title id="title">Volumes de mangás e quadrinhos</title><desc id="desc">Composição editorial de livros ilustrados em preto, creme e terracota sobre fundo claro.</desc>
+<rect width="760" height="900" fill="#e9e2d7"/>
+<circle cx="595" cy="154" r="105" fill="#d7c5b3"/>
+<path d="M0 650 L760 560 L760 900 L0 900Z" fill="#d8cbb9"/>
+<g transform="translate(90 150) rotate(-7 190 300)">
+ <rect x="0" y="0" width="260" height="510" fill="#1b1b19"/>
+ <rect x="16" y="16" width="228" height="478" fill="none" stroke="#f4f0e8" stroke-width="2"/>
+ <text x="31" y="65" fill="#f4f0e8" font-family="Montserrat,Arial" font-size="12" letter-spacing="4">VOL. 01</text>
+ <circle cx="130" cy="235" r="76" fill="#a34f36"/>
+ <path d="M62 320 L130 170 L198 320Z" fill="#f4f0e8"/>
+ <path d="M90 320 L130 225 L170 320Z" fill="#1b1b19"/>
+ <text x="30" y="420" fill="#f4f0e8" font-family="Georgia,serif" font-size="45">MANGA</text>
+ <text x="32" y="454" fill="#c7b9a7" font-family="Montserrat,Arial" font-size="10" letter-spacing="2">OUTRAS HISTÓRIAS</text>
+</g>
+<g transform="translate(340 260) rotate(5 150 270)">
+ <rect x="0" y="0" width="250" height="480" fill="#a34f36"/>
+ <rect x="15" y="15" width="220" height="450" fill="none" stroke="#f4f0e8" stroke-width="2"/>
+ <text x="30" y="62" fill="#f4f0e8" font-family="Montserrat,Arial" font-size="11" letter-spacing="3">EDIÇÃO ESPECIAL</text>
+ <path d="M38 130 L212 130 L125 300Z" fill="#f4f0e8"/>
+ <circle cx="125" cy="220" r="55" fill="#1b1b19"/>
+ <path d="M65 340 Q125 290 185 340 L205 395 L45 395Z" fill="#1b1b19"/>
+ <text x="28" y="425" fill="#f4f0e8" font-family="Georgia,serif" font-size="33">QUADRINHOS</text>
+</g>
+<g transform="translate(185 590) rotate(2 180 80)">
+ <rect width="370" height="110" fill="#f4f0e8" stroke="#1b1b19" stroke-width="2"/>
+ <text x="22" y="42" fill="#1b1b19" font-family="Montserrat,Arial" font-size="11" letter-spacing="3">SEGUNDA LEITURA</text>
+ <text x="22" y="81" fill="#a34f36" font-family="Georgia,serif" font-size="29">Toda história continua.</text>
+</g>
+</svg>

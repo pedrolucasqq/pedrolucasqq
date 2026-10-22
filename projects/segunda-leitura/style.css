@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --paper: #f4f0e8;
+  --ink: #171715;
+  --muted: #77736b;
+  --line: #d8d1c5;
+  --accent: #a34f36;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent); }
+.site-header {
+  padding: 22px 6.5%;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.brand { float: left; font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; padding-top: 7px; }
+.brand span { color: var(--accent); }
+nav { float: right; }
+nav a {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 7px 0;
+  border-bottom: 1px solid transparent;
+}
+nav a:hover, nav a.active { border-bottom-color: var(--accent); color: var(--ink); }
+main { max-width: 1180px; margin: 0 auto; padding: 0 6.5%; }
+.eyebrow { color: var(--accent); font-size: 10px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+h1, h2, h3, blockquote { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; }
+h1 { font-size: clamp(48px, 7.3vw, 96px); line-height: .96; letter-spacing: -.045em; margin: 18px 0 24px; }
+h2 { font-size: clamp(35px, 4vw, 54px); line-height: 1.04; margin: 0 0 20px; letter-spacing: -.025em; }
+h3 { font-size: 29px; line-height: 1.1; margin: 0 0 12px; }
+p { max-width: 690px; }
+.hero { padding: 76px 0 54px; overflow: hidden; }
+.hero-copy { width: 53%; float: left; padding: 12px 5% 20px 0; }
+.hero-copy p { color: #5f5b54; font-size: 14px; }
+.hero-image { width: 43%; float: right; margin-top: 12px; }
+.hero-image img { width: 100%; display: block; border: 1px solid var(--line); }
+.caption { color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; margin-top: 9px; }
+.button {
+  display: inline-block; background: var(--ink); color: var(--paper);
+  padding: 13px 20px; margin-top: 18px; font-size: 10px;
+  font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  border: 1px solid var(--ink); transition: background .2s, color .2s, transform .2s;
+}
+.button:hover { background: transparent; color: var(--ink); transform: translateY(-2px); }
+.section { padding: 54px 0; border-top: 1px solid var(--line); overflow: hidden; }
+.section-heading { overflow: hidden; margin-bottom: 24px; }
+.section-heading h2 { float: left; max-width: 70%; }
+.section-heading .eyebrow { float: right; padding-top: 15px; }
+.card {
+  display: inline-block; vertical-align: top; width: 31.2%; min-height: 235px;
+  margin: 0 2.4% 18px 0; padding: 25px; border: 1px solid var(--line);
+  transition: background .25s, transform .25s;
+}
+.card:nth-of-type(3n) { margin-right: 0; }
+.card:hover { background: #ebe4d8; transform: translateY(-4px); }
+.card-number { color: var(--accent); font-size: 10px; letter-spacing: .14em; }
+.card p { color: var(--muted); font-size: 12px; }
+.text-link { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; border-bottom: 1px solid var(--accent); padding-bottom: 4px; }
+.quote { max-width: 850px; margin: 0 auto; padding: 40px 0; text-align: center; }
+blockquote { font-size: clamp(30px, 4vw, 47px); line-height: 1.15; margin: 0; }
+.quote p { margin: 20px auto 0; color: var(--muted); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+.page-intro { padding: 70px 0 40px; }
+.page-intro h1 { max-width: 900px; }
+.page-intro p { color: var(--muted); }
+.content-column { max-width: 790px; }
+.content-column h2 { margin-top: 25px; }
+.content-column ul, .content-column ol { padding-left: 22px; }
+.content-column li { padding: 5px 0 5px 5px; }
+.info-band { background: #e9e2d7; padding: 30px; margin: 28px 0; border-left: 3px solid var(--accent); }
+.info-band p { margin-bottom: 0; }
+.student-box { border: 1px solid var(--line); padding: 25px; margin-top: 20px; overflow: hidden; }
+.student-box img { width: 140px; float: left; margin-right: 25px; border: 1px solid var(--line); }
+.student-details { overflow: hidden; }
+.student-details p { margin: 4px 0; }
+.table-wrap { width: 100%; overflow-x: auto; margin: 30px 0; }
+table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; }
+th { background: var(--ink); color: var(--paper); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; }
+th, td { padding: 16px 14px; border: 1px solid var(--line); }
+tbody tr { transition: background .2s; }
+tbody tr:hover { background: #e9e2d7; }
+.status { color: var(--accent); font-weight: 700; }
+.contact-layout { overflow: hidden; padding-bottom: 70px; }
+.contact-copy { float: left; width: 35%; padding-right: 5%; }
+.contact-form { float: right; width: 60%; border: 1px solid var(--line); padding: 30px; }
+label { display: block; margin: 15px 0 6px; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+input, select, textarea {
+  display: block; width: 100%; padding: 13px 12px; border: 1px solid #c9c1b5;
+  background: #faf8f3; color: var(--ink); font: inherit; border-radius: 0;
+}
+input:focus, select:focus, textarea:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
+textarea { min-height: 150px; resize: vertical; }
+button { cursor: pointer; font-family: inherit; }
+.form-note { color: var(--muted); font-size: 11px; }
+.site-footer { padding: 25px 6.5%; border-top: 1px solid var(--line); overflow: hidden; color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.site-footer span:first-child { float: left; }
+.site-footer span:last-child { float: right; }
+.clear { clear: both; }
+@media (max-width: 760px) {
+  .site-header { padding: 18px 5%; }
+  .brand, nav { float: none; display: block; text-align: center; }
+  nav { margin-top: 12px; }
+  nav a { margin: 0 7px; font-size: 9px; }
+  main { padding: 0 5%; }
+  .hero { padding-top: 48px; }
+  .hero-copy, .hero-image, .contact-copy, .contact-form { float: none; width: 100%; }
+  .hero-copy { padding-right: 0; }
+  .hero-image { margin-top: 25px; }
+  .card { width: 100%; margin: 0 0 14px; min-height: 0; }
+  .section-heading h2, .section-heading .eyebrow { float: none; max-width: 100%; }
+  .section-heading .eyebrow { padding-top: 0; }
+  .student-box img { width: 100px; margin-right: 15px; }
+  .contact-copy { padding-right: 0; margin-bottom: 25px; }
+  .contact-form { padding: 20px; }
+  .site-footer span:first-child, .site-footer span:last-child { float: none; display: block; }
+  th, td { padding: 11px 9px; }
+}

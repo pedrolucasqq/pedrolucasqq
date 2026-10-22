@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a Segunda Leitura para enviar dúvidas e sugestões.">
+  <title>Contato — Segunda Leitura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">SEGUNDA <span>LEITURA</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="projeto.html">Catálogo</a>
+      <a class="active" href="contato.html">Contato</a>
+    </nav>
+    <div class="clear"></div>
+  </header>
+  <main>
+    <section class="page-intro">
+      <p class="eyebrow">Conversa aberta / 03</p>
+      <h1>Toda boa coleção começa com uma pergunta.</h1>
+      <p>Quer saber mais sobre uma edição, sugerir um título para o catálogo ou compartilhar uma ideia? Envie sua mensagem pelo formulário abaixo.</p>
+    </section>
+    <section class="contact-layout">
+      <div class="contact-copy">
+        <p class="eyebrow">Vamos conversar</p>
+        <h2>O que você procura?</h2>
+        <p>Use o formulário para enviar dúvidas, sugestões ou comentários sobre o projeto. Se a mensagem for sobre um título específico, inclua o nome e o volume para facilitar a identificação.</p>
+        <div class="info-band">
+          <strong>Uma observação</strong>
+          <p>Este é um projeto escolar estático. O formulário demonstra os campos e a validação do navegador, mas não envia mensagens para um servidor.</p>
+        </div>
+        <p class="form-note">Projeto acadêmico · IFTO</p>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Como podemos chamar você?" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+
+        <label for="assunto">Assunto</label>
+        <select id="assunto" name="assunto" required>
+          <option value="" selected disabled>Selecione um assunto</option>
+          <option value="catalogo">Dúvida sobre o catálogo</option>
+          <option value="sugestao">Sugestão de título</option>
+          <option value="conservacao">Estado de conservação</option>
+          <option value="projeto">Sobre o projeto escolar</option>
+          <option value="outro">Outro assunto</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+        <button class="button" type="submit">Preparar mensagem ↗</button>
+        <p class="form-note">Todos os campos são obrigatórios. O envio real exige integração com um serviço ou servidor.</p>
+      </form>
+      <div class="clear"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Segunda Leitura — Projeto escolar</span><span>Entre em contato</span></footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-labelledby="title">
+<title id="title">Ilustração de estudante e livros</title>
+<rect width="420" height="420" fill="#e9e2d7"/>
+<circle cx="300" cy="95" r="52" fill="#d4c1ae"/>
+<rect x="45" y="270" width="330" height="15" fill="#1b1b19"/>
+<rect x="70" y="285" width="15" height="95" fill="#1b1b19"/>
+<rect x="335" y="285" width="15" height="95" fill="#1b1b19"/>
+<rect x="95" y="205" width="55" height="65" fill="#a34f36"/>
+<rect x="155" y="185" width="60" height="85" fill="#1b1b19"/>
+<rect x="220" y="220" width="50" height="50" fill="#c6b49f"/>
+<path d="M135 270 L135 145 Q135 120 165 120 L225 120 Q255 120 255 150 L255 270Z" fill="#a34f36"/>
+<circle cx="195" cy="95" r="42" fill="#c6a184"/>
+<path d="M151 94 Q145 43 196 48 Q240 45 239 95 L225 79 L163 80Z" fill="#1b1b19"/>
+<rect x="165" y="86" width="22" height="12" rx="5" fill="#1b1b19"/>
+<rect x="201" y="86" width="22" height="12" rx="5" fill="#1b1b19"/>
+<path d="M187 111 Q197 120 208 110" fill="none" stroke="#1b1b19" stroke-width="3"/>
+<rect x="275" y="225" width="47" height="45" fill="#f4f0e8" stroke="#1b1b19" stroke-width="3"/>
+<path d="M285 235 L312 235 M285 245 L312 245 M285 255 L305 255" stroke="#a34f36" stroke-width="3"/>
+<text x="30" y="35" font-family="Montserrat,Arial" font-size="11" letter-spacing="3" fill="#1b1b19">FICHA DO PROJETO</text>
+</svg>
